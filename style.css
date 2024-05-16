@@ -1,0 +1,211 @@
+*{
+    font-family: poppins, arial;
+    margin: 0px;
+}
+.background-img{
+    background-color: black;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.background-img img{
+    height: 854px;
+    filter: opacity(25%);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header img{
+    display: flex;
+    height: 50px;
+    margin-top: 19px;
+    margin-left: 170px;
+}
+header select{
+    height: 32px;
+    margin-right: 20px;
+    width: 122px;
+    background-color: rgba(0, 0, 0, 0.425);
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+header button{
+    height: 32px;
+    width: 80px;
+    margin-right: 180px;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+
+}
+.display{
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.display h1{
+    font-size: 47px;
+}
+.display p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#spam{
+    font-size: 17px;
+}
+.display input{
+    height: 56px;
+    width: 375.83px;
+    background-color: rgba(0, 0, 0, 0.183);
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.342);
+}
+.display button{
+    width: 212.65px;
+    height: 63px;
+    background-color:red;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+
+}
+.email-getstart{
+    margin-top: 18px;
+    margin-bottom: 200px;
+}
+
+.tv-show{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    border-top: 8px;
+    border-left: 0px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: rgb(63, 60, 60);
+}
+.tv-show{
+display: flex;
+}
+.enjoy-tv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.enjoy-tv h1{
+    font-size: 50px;
+}
+.enjoy-tv p{
+    font-size: 16px;
+}
+.ads{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ads video{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    margin-bottom: 15px;
+    margin-right: 6px;
+}
+.ads img{
+    display: flex;
+    position: absolute;
+    height: 450px;
+}
+
+.mobile-layout{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.stranger-things{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.stranger-things img{
+height: 80px;
+margin-left: 20px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.stranger-things p{
+    font-size: 18px;
+}
+.stranger-things span{
+    font-size: 15px;
+    color: rgb(77, 77, 244);
+}
+
+.spinner{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    position: relative;
+}
+.spinner .dot{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+}
+.spinner .dot::after{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(61, 71, 251);
+    content: "";
+    border-radius: 50px;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.spinner .dot{
+    animation:spin 2s infinite;
+}
+.spinner .dot:nth-child(2){
+    animation-delay: 100ms;
+}
+.spinner .dot:nth-child(3){
+    animation-delay: 200ms;
+}
+.spinner .dot:nth-child(4){
+    animation-delay: 300ms;
+}
+.spinner .dot:nth-child(5){
+    animation-delay: 400ms;
+}
+
+
+/* samples */
+
